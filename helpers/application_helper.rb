@@ -14,4 +14,11 @@ module ApplicationHelper
     image_tag("#{p.slug}/#{i}", opt)
   end
 
+  def to_rgb(hexa)
+    hexa = hexa.gsub(/\#/, '')
+    color = hexa.scan(/../).map {|color| color.to_i(16)}
+    color = color.join(', ')
+    return color
+  end
+
 end

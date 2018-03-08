@@ -2,9 +2,18 @@
 slug: homepage
 ---
 
-<h1>
-  <%= t('homepage.h1') %>
-</h1>
+<div id="hello">
+  <h1>Hey, I’m Joshua. </h1>
+  <p>I’m a digital creative student. I work on design UI/UX,<br> visuel identity ,motion design and photography. </p>
+</div>
 
-<%= link_to(t('titles.about'), t('paths.about')) %>
-<%= link_to(t('titles.projects'), t('paths.projects')) %>
+<!-- <% data.projects.each do |project| %>
+  <% link_to proxy_url(project.slug) do %>
+    <%= project_image(project, 'main.jpg', {
+      'alt' => 'cover image',
+      'class' => 'cover'
+      }) %>
+    <br>
+    <%= project.name %>
+  <% end %>
+<% end %> -->

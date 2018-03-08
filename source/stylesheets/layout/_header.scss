@@ -1,0 +1,77 @@
+header {
+  position: fixed;
+  width: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 3em;
+  nav {
+    width: 80%;
+    margin: 0 auto;
+    li {
+      display: inline-block;
+      margin-right: 1.5em;
+    }
+    a {
+      color: $grey;
+      &:after {
+        content: '';
+        position: relative;
+        display: block;
+        height: 1px;
+        width: 0;
+        background-color: $black;
+        margin-top: .15em;
+        transition: width .2s $ease-in-cubic;
+      }
+      &:hover::after {
+        width: 100%;
+      }
+    }
+  }
+  #contact {
+    display: inline-block;
+    transform: rotate(-90deg) translateX(-102%);
+    transform-origin: left;
+    :last-child {
+      color: $grey;
+      transition: color .2s;
+      &:hover {
+        color: $black;
+      }
+    }
+    a {
+      margin-left: 1.5em;
+    }
+  }
+  #socials {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    ul li {
+      width: 1.3em;
+      height: 1.3em;
+      margin-bottom: .8em;
+      a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      .twitter {
+        background-image: image-url('icons/socials/twitter.svg');
+      }
+      .tumblr {
+        background-image: image-url('icons/socials/tumblr.svg');
+      }
+      .behance {
+        background-image: image-url('icons/socials/behance.svg');
+      }
+      .facebook {
+        background-image: image-url('icons/socials/facebook.svg');
+      }
+    }
+  }
+}

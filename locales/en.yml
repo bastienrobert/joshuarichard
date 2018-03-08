@@ -4,9 +4,8 @@ en:
   # Root translations
   # ------------------
   titles:
-    homepage: "Homepage"
+    homepage: "Projects"
     about: "About"
-    projects: "Projects"
     project: "Project"
 
   descriptions:
@@ -16,13 +15,13 @@ en:
     # Paths
     homepage: ''
     about: "about"
-    projects: "projects"
 
   # ------------------
   # Header & footer
   # ------------------
   header:
-    home: "Homepage"
+    home: "Projects"
+    about: "About"
 
   # ------------------
   # Page translations

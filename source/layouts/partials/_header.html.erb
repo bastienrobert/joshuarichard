@@ -1,3 +1,20 @@
 <header>
-  <%= current_link_to t('header.home'), 'homepage' %>
+  <nav>
+    <ul>
+      <li><%= current_link_to t('header.home'), 'homepage' %></li>
+      <li><%= current_link_to t('header.about'), 'about' %></li>
+    </ul>
+  </nav>
+  <div id="contact">
+    <span class="name">Joshua Richard</span>
+    <span class="email"><a href="#">joshua.richardmadec@gmail.com</a></span>
+  </div>
+  <div id="socials">
+    <ul>
+      <li><a href="#" class="behance"></a></li>
+      <li><a href="#" class="twitter"></a></li>
+      <li><a href="#" class="facebook"></a></li>
+      <li><a href="#" class="tumblr"></a></li>
+    </ul>
+  </div>
 </header>

@@ -1,0 +1,6 @@
+<div id="title">
+  <h1><%= project.name %></h1>
+  <% project[locale.to_s].explain.each do |p| %>
+    <p><%= p %></p>
+  <% end %>
+</div>

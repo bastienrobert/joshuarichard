@@ -1,0 +1,26 @@
+#about {
+  .text {
+    width: 60%;
+    margin-top: 4em;
+    background-color: $blue;
+    border-radius: 10px;
+    color: $white;
+    padding: 1.5em 1em;
+    p {
+      display: block;
+      width: 50%;
+      font-size: 1.25em;
+      line-height: 1.6em;
+    }
+  }
+  .image {
+    position: absolute;
+    width: 60%;
+    top: 0;
+    margin-top: 4em;
+    right: 0;
+    img {
+      width: 100%;
+    }
+  }
+}

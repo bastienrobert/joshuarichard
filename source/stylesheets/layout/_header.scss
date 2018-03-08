@@ -4,6 +4,7 @@ header {
   left: 50%;
   transform: translateX(-50%);
   margin-top: 3em;
+  z-index: 999;
   nav {
     width: 80%;
     margin: 0 auto;
@@ -17,14 +18,17 @@ header {
         content: '';
         position: relative;
         display: block;
-        height: 1px;
+        height: 2px;
         width: 0;
         background-color: $black;
         margin-top: .15em;
         transition: width .2s $ease-in-cubic;
       }
-      &:hover::after {
-        width: 100%;
+      &:hover {
+        color: $black;
+        &:after {
+          width: 100%;
+        }
       }
     }
   }

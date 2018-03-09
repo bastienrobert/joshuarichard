@@ -1,7 +1,8 @@
 class Card {
   constructor () {
     this.card = document.getElementById('card')
-    this.cards = document.getElementById('cards').getElementsByTagName('div')
+    this.container = document.getElementById('cards')
+    this.cards = this.container.getElementsByTagName('div')
     this.nav = document.getElementById('nav')
     this.projects = this.nav.getElementsByTagName('li')
     this.event()
@@ -12,6 +13,7 @@ class Card {
       this.shift(el)
       el.addEventListener('mouseenter', this.mouseEnter.bind(this, el))
     }
+    this.nav.addEventListener('mouseleave', this.mouseLeave.bind(this))
   }
   shift (el) {
     let shift = document.createElement('span')
@@ -25,14 +27,19 @@ class Card {
     let image = this.card.querySelector('img')
     let src = '/images/' + project + '/cover.png'
 
-    if (image.classList.contains('visible') == false) {
-      image.classList.add('visible')
-    }
+    image.classList.contains('visible') ? null : image.classList.add('visible')
+    this.container.classList.contains('animate') ? null : this.container.classList.add('animate')
 
     image.src = src
     for (let i = 0; i < this.cards.length; i++) {
-      this.cards[i].classList.toggle('default')
-      this.cards[i].style.background = el.dataset.color
+      this.cards[i].style.backgroundColor = el.dataset.color
+    }
+  }
+  mouseLeave () {
+    this.card.querySelector('img').classList.remove('visible')
+    this.container.classList.contains('animate') ? this.container.classList.remove('animate') : null
+    for (let i = 0; i < this.cards.length; i++) {
+      this.cards[i].style.backgroundColor = null
     }
   }
 }

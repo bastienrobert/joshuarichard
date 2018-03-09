@@ -1,6 +1,7 @@
 #homepage {
   #hello {
     line-height: 1.813em;
+    font-weight: 500;
   }
   #projects {
     display: flex;
@@ -25,20 +26,20 @@
       transition: all .2s;
     }
     .background-card {
-      transform: translateY(-35px) scale(.95);
+      transform: translateY(-20px) scale(.95);
       opacity: .5;
     }
     .sub-card {
-      transform: translateY(-20px) scale(.975);
+      transform: translateY(-10px) scale(.975);
       opacity: .7;
     }
     &:hover,
     &.animate {
       .sub-card {
-        transform: translateY(-10px) scale(.975);
+        transform: translateY(-20px) scale(.975);
       }
       .background-card {
-        transform: translateY(-20px) scale(.95);
+        transform: translateY(-35px) scale(.95);
       }
     }
   }
@@ -84,10 +85,11 @@
         .shift {
           position: absolute;
           left: 0;
-          transform: translate(5px, -5px);
+          transform: translate(2px, -2px);
           z-index: -1;
           opacity: 0;
           transition: color .2s;
+          font-weight: bold;
         }
       }
       .role {
@@ -98,6 +100,7 @@
       &:hover {
         h2 {
           color: #000;
+          font-weight: bold;
         }
         .role {
           color: #a0a0a0;

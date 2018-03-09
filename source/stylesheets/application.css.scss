@@ -5,6 +5,9 @@
 body {
   color: $black;
   font-family: $font-primary;
+  &.overflow {
+    overflow: hidden;
+  }
 }
 
 section {

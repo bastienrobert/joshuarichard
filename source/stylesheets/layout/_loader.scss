@@ -1,0 +1,37 @@
+#loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1000;
+  background-color: $white;
+  display: none;
+  &.visible {
+    display: block;
+  }
+  .container {
+    position: absolute;
+    width: 50%;
+    padding-bottom: 40%;
+    overflow: hidden;
+    position: relative;
+    background-color: $yellow;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .img {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: image-url('loader.gif');
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

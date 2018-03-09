@@ -6,6 +6,28 @@ slug: homepage
   <h1>Hey, I’m Joshua. </h1>
   <p>I’m a digital creative student. I work on design UI/UX,<br> visuel identity ,motion design and photography. </p>
 </div>
+<div id="projects">
+  <div id="cards">
+    <div class="background-card"></div>
+    <div class="sub-card"></div>
+    <div id="card">
+      <img src="#" alt="Mockup">
+    </div>
+  </div>
+  <ul id="nav">
+    <% data.projects.each_with_index do |project, index| %>
+      <li data-project="<%= project.slug %>" data-color="<%= project.color %>">
+        <% link_to project.slug do %>
+          <span class="number" style="color: <%= project.color %>"><%= index+1 %>.</span>
+          <span>
+            <h2><%= project.name %></h2>
+            <span class="role"><%= project.role %></span>
+          </span>
+        <% end %>
+      </li>
+    <% end %>
+  </ul>
+</div>
 
 <!-- <% data.projects.each do |project| %>
   <% link_to proxy_url(project.slug) do %>

@@ -10,13 +10,6 @@ end
 activate :directory_indexes
 # Localization
 activate :i18n, :mount_at_root => :fr
-# Using asset helpers
-activate :asset_hash do |f|
-  f.ignore = [
-    'images/static/*',
-    'images/compress/*'
-  ]
-end
 # Middleman i18n can't convert page URL to another language. This is the solution.
 activate :transpath
 # For indicating an active link
@@ -69,8 +62,8 @@ Dir['helpers/*'].each(&method(:load))
 ## Proxy - Dynamic pages
 # Project-page generation
 data.projects.each do |project|
-  proxy "/projets/#{project.slug}/index.html", "templates/project.html", :locals => { :project => project }, :locale => :fr, :ignore => true, :data => { :slug => project.slug }
-  proxy "en/projects/#{project.slug}/index.html", "templates/project.html", :locals => { :project => project }, :locale => :en, :ignore => true, :data => { :slug => project.slug }
+  proxy "/#{project.slug}/index.html", "templates/project.html", :locals => { :project => project }, :locale => :fr, :ignore => true, :data => { :slug => project.slug }
+  proxy "en/#{project.slug}/index.html", "templates/project.html", :locals => { :project => project }, :locale => :en, :ignore => true, :data => { :slug => project.slug }
 end
 
 ## Build-specific configuration

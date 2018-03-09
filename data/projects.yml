@@ -1,6 +1,49 @@
+- name: TradFood
+  slug: tradfood
+  color: '#FCA883'
+  role: design UX/UI
+  fr:
+    description: FR Lorem ipsum dolor sit amet, consectetur adipisicing elit
+    explain:
+      - Dans le cadre de mes études, nous devions crée un site de recettes spécialiser sur Bordeaux. Dans ce projet je me suis occupé de l’identité visuel du site et du webdesign.
+      - Nous voulions donnez un aspect Haut de Gamme à ce site. Sortir des classiques de Marmition et autres qui ne sont pas forcément hestétique.
+  en:
+    description: EN Lorem ipsum dolor sit amet, consectetur adipisicing elit
+    explain:
+      - Dans le cadre de mes études, nous devions crée un site de recettes spécialiser sur Bordeaux. Dans ce projet je me suis occupé de l’identité visuel du site et du webdesign.
+      - Nous voulions donnez un aspect Haut de Gamme à ce site. Sortir des classiques de Marmition et autres qui ne sont pas forcément hestétique.
 - name: Capsule
   slug: capsule
   color: '#80BDF5'
+  role: design UX/UI
+  fr:
+    description: FR Lorem ipsum dolor sit amet, consectetur adipisicing elit
+    explain:
+      - Dans le cadre de mes études, nous devions crée un site de recettes spécialiser sur Bordeaux. Dans ce projet je me suis occupé de l’identité visuel du site et du webdesign.
+      - Nous voulions donnez un aspect Haut de Gamme à ce site. Sortir des classiques de Marmition et autres qui ne sont pas forcément hestétique.
+  en:
+    description: EN Lorem ipsum dolor sit amet, consectetur adipisicing elit
+    explain:
+      - Dans le cadre de mes études, nous devions crée un site de recettes spécialiser sur Bordeaux. Dans ce projet je me suis occupé de l’identité visuel du site et du webdesign.
+      - Nous voulions donnez un aspect Haut de Gamme à ce site. Sortir des classiques de Marmition et autres qui ne sont pas forcément hestétique.
+- name: Next Time
+  slug: next-time
+  color: '#FCE3DF'
+  role: design UX/UI
+  fr:
+    description: FR Lorem ipsum dolor sit amet, consectetur adipisicing elit
+    explain:
+      - Dans le cadre de mes études, nous devions crée un site de recettes spécialiser sur Bordeaux. Dans ce projet je me suis occupé de l’identité visuel du site et du webdesign.
+      - Nous voulions donnez un aspect Haut de Gamme à ce site. Sortir des classiques de Marmition et autres qui ne sont pas forcément hestétique.
+  en:
+    description: EN Lorem ipsum dolor sit amet, consectetur adipisicing elit
+    explain:
+      - Dans le cadre de mes études, nous devions crée un site de recettes spécialiser sur Bordeaux. Dans ce projet je me suis occupé de l’identité visuel du site et du webdesign.
+      - Nous voulions donnez un aspect Haut de Gamme à ce site. Sortir des classiques de Marmition et autres qui ne sont pas forcément hestétique.
+- name: Earth Attack
+  slug: earth-attack
+  color: '#394181'
+  role: design UX/UI
   fr:
     description: FR Lorem ipsum dolor sit amet, consectetur adipisicing elit
     explain:

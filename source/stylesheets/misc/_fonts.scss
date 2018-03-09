@@ -1,10 +1,43 @@
 @font-face {
-    font-family: 'HKNova';
-    src: font-url('HKNova/HKNova-MediumNarrow.eot');
-    src: font-url('HKNova/HKNova-MediumNarrow.eot?#iefix') format('embedded-opentype'),
-         font-url('HKNova/HKNova-MediumNarrow.woff2') format('woff2'),
-         font-url('HKNova/HKNova-MediumNarrow.woff') format('woff'),
-         font-url('HKNova/HKNova-MediumNarrow.ttf') format('ttf'),
-         font-url('HKNova/HKNova-MediumNarrow.otf') format('otf');
+    font-family: 'HK Nova Narrow';
+    src: font-url('HKNovaNarrow/HKNova-Narrow.eot');
+    src: font-url('HKNovaNarrow/HKNova-Narrow.eot?#iefix') format('embedded-opentype'),
+        font-url('HKNovaNarrow/HKNova-Narrow.woff2') format('woff2'),
+        font-url('HKNovaNarrow/HKNova-Narrow.woff') format('woff'),
+        font-url('HKNovaNarrow/HKNova-Narrow.ttf') format('truetype');
     font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HK Nova Medium Narrow';
+    src: font-url('HKNovaNarrow/HKNova-MediumNarrow.eot');
+    src: font-url('HKNovaNarrow/HKNova-MediumNarrow.eot?#iefix') format('embedded-opentype'),
+        font-url('HKNovaNarrow/HKNova-MediumNarrow.woff2') format('woff2'),
+        font-url('HKNovaNarrow/HKNova-MediumNarrow.woff') format('woff'),
+        font-url('HKNovaNarrow/HKNova-MediumNarrow.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HK Nova Narrow';
+    src: font-url('HKNovaNarrow/HKNova-BoldNarrow.eot');
+    src: font-url('HKNovaNarrow/HKNova-BoldNarrow.eot?#iefix') format('embedded-opentype'),
+        font-url('HKNovaNarrow/HKNova-BoldNarrow.woff2') format('woff2'),
+        font-url('HKNovaNarrow/HKNova-BoldNarrow.woff') format('woff'),
+        font-url('HKNovaNarrow/HKNova-BoldNarrow.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HK Nova Light Narrow';
+    src: font-url('HKNovaNarrow/HKNova-LightNarrow.eot');
+    src: font-url('HKNovaNarrow/HKNova-LightNarrow.eot?#iefix') format('embedded-opentype'),
+        font-url('HKNovaNarrow/HKNova-LightNarrow.woff2') format('woff2'),
+        font-url('HKNovaNarrow/HKNova-LightNarrow.woff') format('woff'),
+        font-url('HKNovaNarrow/HKNova-LightNarrow.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
 }

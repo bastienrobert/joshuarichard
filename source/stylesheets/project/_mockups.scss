@@ -1,0 +1,27 @@
+#mockups {
+  display: flex;
+  margin: 2em auto 5em;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  .computer {
+    margin-top: 2em;
+    margin-right: 2em;
+  }
+  .computer,
+  .phone {
+    max-height: 250px;
+    max-width: 50%;
+  }
+  @media #{$bigTablet} {
+    .computer {
+      width: 80%;
+      max-width: none;
+      max-height: none;
+      margin: 0 auto 2em;
+    }
+    .phone {
+      display: none;
+    }
+  }
+}

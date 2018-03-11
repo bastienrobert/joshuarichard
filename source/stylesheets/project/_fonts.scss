@@ -1,0 +1,21 @@
+#fonts {
+  display: flex;
+  justify-content: space-between;
+  background-color: $white;
+  border-radius: 10px;
+  padding: 3em 2em;
+  margin-bottom: 6em;
+  .font {
+    width: 48%;
+  }
+  span {
+    display: block;
+  }
+  .name {
+    margin-bottom: 1.3em;
+    text-transform: uppercase;
+  }
+  .letters {
+    margin-bottom: .25em;
+  }
+}

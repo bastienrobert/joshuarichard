@@ -1,15 +1,30 @@
 - name: TradFood
   slug: tradfood
   color: '#FCA883'
+  palette:
+    - '#FC5143'
+    - '#7CA6F9'
+    - '#8EE3CA'
+    - '#FFFFFF'
+    - '#000000'
   role: design UX/UI
+  mockups: true
+  big_mockup: true
+  fonts: true
   fr:
     description: FR Lorem ipsum dolor sit amet, consectetur adipisicing elit
     explain:
       - Dans le cadre de mes études, nous devions crée un site de recettes spécialiser sur Bordeaux. Dans ce projet je me suis occupé de l’identité visuel du site et du webdesign.
       - Nous voulions donnez un aspect Haut de Gamme à ce site. Sortir des classiques de Marmition et autres qui ne sont pas forcément hestétique.
+    more:
+      - Dans le cadre de mes études, nous devions crée un site de recettes spécialiser sur Bordeaux. Dans ce projet je me suis occupé de l’identité visuel du site et du webdesign.
+      - Nous voulions donnez un aspect Haut de Gamme à ce site. Sortir des classiques de Marmition et autres qui ne sont pas forcément hestétique.
   en:
     description: EN Lorem ipsum dolor sit amet, consectetur adipisicing elit
     explain:
+      - Dans le cadre de mes études, nous devions crée un site de recettes spécialiser sur Bordeaux. Dans ce projet je me suis occupé de l’identité visuel du site et du webdesign.
+      - Nous voulions donnez un aspect Haut de Gamme à ce site. Sortir des classiques de Marmition et autres qui ne sont pas forcément hestétique.
+    more:
       - Dans le cadre de mes études, nous devions crée un site de recettes spécialiser sur Bordeaux. Dans ce projet je me suis occupé de l’identité visuel du site et du webdesign.
       - Nous voulions donnez un aspect Haut de Gamme à ce site. Sortir des classiques de Marmition et autres qui ne sont pas forcément hestétique.
 - name: Capsule

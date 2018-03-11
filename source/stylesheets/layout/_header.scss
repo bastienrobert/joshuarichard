@@ -64,6 +64,9 @@ header {
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
+        &:hover {
+          animation: socials 200ms infinite;
+        }
       }
       .twitter {
         background-image: image-url('icons/socials/twitter.svg');

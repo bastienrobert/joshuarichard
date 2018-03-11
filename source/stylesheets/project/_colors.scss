@@ -1,0 +1,26 @@
+#colors {
+  margin-bottom: 5em;
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  li {
+    margin: 2em 4%;
+    position: relative;
+  }
+  .background {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .hexa {
+    background-color: white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+    padding: 1em 0;
+  }
+}

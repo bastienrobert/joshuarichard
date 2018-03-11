@@ -1,7 +1,12 @@
 #project {
   @import "title";
+  @import "mockups";
+  @import "colors";
+  @import "more";
+  @import "big-mockup";
+  @import "fonts";
   .background {
-    padding: 2em;
+    padding: 5em;
     border-radius: 10px;
   }
 }

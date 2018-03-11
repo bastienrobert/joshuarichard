@@ -1,0 +1,10 @@
+<div id="colors">
+  <ul>
+    <% project.palette.each do |color| %>
+      <li class="color" data-color="<%= color %>">
+        <div class="background" style="background-color: <%= color %>;"></div>
+        <div class="hexa"><%= color %></div>
+      </li>
+    <% end %>
+  </ul>
+</div>

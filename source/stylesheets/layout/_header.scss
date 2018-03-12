@@ -22,7 +22,7 @@ header {
         height: 2px;
         width: 0;
         background-color: $black;
-        margin-top: .15em;
+        margin-top: .25em;
         transition: width .2s $ease-in-cubic;
       }
       &:hover {
@@ -47,6 +47,9 @@ header {
     a {
       margin-left: 1.5em;
     }
+    @media #{$littlePhone} {
+      display: none;
+    }
   }
   #socials {
     display: inline-block;
@@ -64,9 +67,6 @@ header {
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
-        &:hover {
-          animation: socials 200ms infinite;
-        }
       }
       .twitter {
         background-image: image-url('icons/socials/twitter.svg');

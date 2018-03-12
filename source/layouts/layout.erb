@@ -31,7 +31,7 @@
   </head>
   <body>
     <%= partial 'layouts/partials/header' %>
-    <%= partial 'layouts/partials/loader' %>
+    <%= partial 'layouts/partials/loader' if current_page.data.slug == 'homepage' %>
     <section id="<%= current_page.data.dynamic == nil ? current_page.data.slug : current_page.data.dynamic.data %>">
       <%= yield %>
     </section>

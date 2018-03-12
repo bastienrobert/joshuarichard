@@ -1,7 +1,9 @@
 class Loader {
   constructor () {
     this.loader = document.getElementById('loader')
-    this.engine()
+    if (this.loader != null) {
+      this.engine()
+    }
   }
   engine () {
     this.loader.classList.add('visible')

@@ -1,11 +1,13 @@
 class Card {
   constructor () {
     this.card = document.getElementById('card')
-    this.container = document.getElementById('cards')
-    this.cards = this.container.getElementsByTagName('div')
-    this.nav = document.getElementById('nav')
-    this.projects = this.nav.getElementsByTagName('li')
-    this.event()
+    if (this.card != null) {
+      this.container = document.getElementById('cards')
+      this.cards = this.container.getElementsByTagName('div')
+      this.nav = document.getElementById('nav')
+      this.projects = this.nav.getElementsByTagName('li')
+      this.event()
+    }
   }
   event () {
     for (let i = 0; i < this.projects.length; i++) {

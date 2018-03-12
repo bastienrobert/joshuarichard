@@ -18,4 +18,14 @@
   .letters {
     margin-bottom: .25em;
   }
+  @media #{$bigTablet} {
+    flex-wrap: wrap;
+    .font {
+      width: 100%;
+      margin-bottom: 2em;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
 }

@@ -1,6 +1,7 @@
 #about {
   .text {
     width: 60%;
+    min-width: 500px;
     margin-top: 4em;
     background-color: $blue;
     border-radius: 10px;
@@ -8,6 +9,7 @@
     padding: 1.5em 1em;
     p {
       display: block;
+      min-width: 250px;
       width: 50%;
       font-size: 1.25em;
       line-height: 1.6em;
@@ -22,6 +24,47 @@
     img {
       width: 100%;
       mix-blend-mode: luminosity;
+    }
+  }
+  @media #{$bigTablet} {
+    display: flex;
+    flex-wrap: wrap;
+    .text {
+      position: relative;
+      order: 2;
+      margin-top: 8em;
+      min-width: inherit;
+      width: 100%;
+      p {
+        width: 90%;
+        min-width: inherit;
+      }
+    }
+    .image {
+      order: 1;
+      width: 100%;
+      margin-top: 10.5em;
+      mix-blend-mode: overlay;
+    }
+  }
+  @media #{$bigPhone} {
+    .image {
+      position: relative;
+      margin-top: 1.5em;
+    }
+    .text {
+      margin-top: 2em;
+    }
+  }
+  @media #{$littlePhone} {
+    .image {
+      display: none;
+    }
+    .text {
+      margin-top: .5em;
+      p {
+        width: 95%;
+      }
     }
   }
 }

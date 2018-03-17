@@ -91,6 +91,7 @@
         transition: color .2s;
         .shift {
           position: absolute;
+          top: 0;
           left: 0;
           transform: translate(2px, -2px);
           z-index: -1;

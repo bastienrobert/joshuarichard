@@ -35,3 +35,6 @@ en:
 
   projects:
     h1: "Projects"
+
+  project:
+    website: "Go to website"

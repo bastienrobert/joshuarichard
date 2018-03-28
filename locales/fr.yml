@@ -35,3 +35,6 @@ fr:
 
   projects:
     h1: "Projets"
+
+  project:
+    website: "Visiter le site"

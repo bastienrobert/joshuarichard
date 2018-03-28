@@ -4,7 +4,6 @@
   background-color: $white;
   border-radius: 10px;
   padding: 3em 2em;
-  margin-bottom: 6em;
   .font {
     width: 48%;
   }
@@ -27,5 +26,8 @@
         margin-bottom: 0;
       }
     }
+  }
+  @media #{$classicPhone} {
+    display: none;
   }
 }

@@ -1,6 +1,15 @@
 <div id="title">
-  <h1><%= project.name %></h1>
+  <h1><%= project.name %></h1><%= link_to t('project.website'), project.url, class: 'website', target: '_blank' %>
   <% project[locale.to_s].explain.each do |p| %>
     <p><%= p %></p>
   <% end %>
+  <div class="team">
+    <% if project.team != nil %>
+      <p>Travail en équipe avec :
+        <% project.team.each_with_index do |(name, url), index| %>
+          <%= link_to name, url, target: '_blank' %><%= ', ' if index + 1 != project.team.length %>
+        <% end %>
+      </p>
+    <% end %>
+  </div>
 </div>

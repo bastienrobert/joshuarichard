@@ -1,43 +1,54 @@
 @font-face {
-    font-family: 'HK Nova Narrow';
-    src: font-url('HKNovaNarrow/HKNova-Narrow.eot');
-    src: font-url('HKNovaNarrow/HKNova-Narrow.eot?#iefix') format('embedded-opentype'),
-        font-url('HKNovaNarrow/HKNova-Narrow.woff2') format('woff2'),
-        font-url('HKNovaNarrow/HKNova-Narrow.woff') format('woff'),
-        font-url('HKNovaNarrow/HKNova-Narrow.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'HK Nova Medium Narrow';
-    src: font-url('HKNovaNarrow/HKNova-MediumNarrow.eot');
-    src: font-url('HKNovaNarrow/HKNova-MediumNarrow.eot?#iefix') format('embedded-opentype'),
-        font-url('HKNovaNarrow/HKNova-MediumNarrow.woff2') format('woff2'),
-        font-url('HKNovaNarrow/HKNova-MediumNarrow.woff') format('woff'),
-        font-url('HKNovaNarrow/HKNova-MediumNarrow.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'HK Nova Narrow';
-    src: font-url('HKNovaNarrow/HKNova-BoldNarrow.eot');
-    src: font-url('HKNovaNarrow/HKNova-BoldNarrow.eot?#iefix') format('embedded-opentype'),
-        font-url('HKNovaNarrow/HKNova-BoldNarrow.woff2') format('woff2'),
-        font-url('HKNovaNarrow/HKNova-BoldNarrow.woff') format('woff'),
-        font-url('HKNovaNarrow/HKNova-BoldNarrow.ttf') format('truetype');
+    font-family: 'Hanken Sans';
+    src: font-url('HankenSans/HankenSans-Bold.eot');
+    src: font-url('HankenSans/HankenSans-Bold.eot?#iefix') format('embedded-opentype'),
+        font-url('HankenSans/HankenSans-Bold.woff2') format('woff2'),
+        font-url('HankenSans/HankenSans-Bold.woff') format('woff'),
+        font-url('HankenSans/HankenSans-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'HK Nova Light Narrow';
-    src: font-url('HKNovaNarrow/HKNova-LightNarrow.eot');
-    src: font-url('HKNovaNarrow/HKNova-LightNarrow.eot?#iefix') format('embedded-opentype'),
-        font-url('HKNovaNarrow/HKNova-LightNarrow.woff2') format('woff2'),
-        font-url('HKNovaNarrow/HKNova-LightNarrow.woff') format('woff'),
-        font-url('HKNovaNarrow/HKNova-LightNarrow.ttf') format('truetype');
+    font-family: 'Hanken Sans';
+    src: font-url('HankenSans/HankenSans-Medium.eot');
+    src: font-url('HankenSans/HankenSans-Medium.eot?#iefix') format('embedded-opentype'),
+        font-url('HankenSans/HankenSans-Medium.woff2') format('woff2'),
+        font-url('HankenSans/HankenSans-Medium.woff') format('woff'),
+        font-url('HankenSans/HankenSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hanken Sans';
+    src: font-url('HankenSans/HankenSans-BoldItalic.eot');
+    src: font-url('HankenSans/HankenSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        font-url('HankenSans/HankenSans-BoldItalic.woff2') format('woff2'),
+        font-url('HankenSans/HankenSans-BoldItalic.woff') format('woff'),
+        font-url('HankenSans/HankenSans-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Hanken Sans';
+    src: font-url('HankenSans/HankenSans-Light.eot');
+    src: font-url('HankenSans/HankenSans-Light.eot?#iefix') format('embedded-opentype'),
+        font-url('HankenSans/HankenSans-Light.woff2') format('woff2'),
+        font-url('HankenSans/HankenSans-Light.woff') format('woff'),
+        font-url('HankenSans/HankenSans-Light.ttf') format('truetype');
     font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hanken Sans';
+    src: font-url('HankenSans/HankenSans-Regular.eot');
+    src: font-url('HankenSans/HankenSans-Regular.eot?#iefix') format('embedded-opentype'),
+        font-url('HankenSans/HankenSans-Regular.woff2') format('woff2'),
+        font-url('HankenSans/HankenSans-Regular.woff') format('woff'),
+        font-url('HankenSans/HankenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
     font-style: normal;
 }

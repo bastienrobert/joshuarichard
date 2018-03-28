@@ -23,7 +23,7 @@ header {
         width: 0;
         background-color: $black;
         margin-top: .25em;
-        transition: width .2s $ease-in-cubic;
+        transition: width .2s;
       }
       &:hover {
         color: $black;

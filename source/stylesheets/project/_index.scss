@@ -3,8 +3,19 @@
   @import "mockups";
   @import "colors";
   @import "more";
-  @import "big-mockup";
+  @import "screenshots";
   @import "fonts";
+  .intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+      width: 180px;
+      @media #{$classicTablet} {
+        display: none;
+      }
+    }
+  }
   .background {
     padding: 5em;
     border-radius: 10px;

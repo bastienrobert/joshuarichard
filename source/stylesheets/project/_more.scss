@@ -11,4 +11,7 @@
   p:last-child {
     margin-bottom: 0;
   }
+  @media #{$mediumPhone} {
+    padding: 0;
+  }
 }

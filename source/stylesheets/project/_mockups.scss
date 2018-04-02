@@ -24,4 +24,10 @@
       display: none;
     }
   }
+  @media #{$mediumPhone} {
+    margin-bottom: 2em;
+    .computer {
+      width: 95%;
+    }
+  }
 }

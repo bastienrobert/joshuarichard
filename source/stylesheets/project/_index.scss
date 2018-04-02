@@ -24,4 +24,10 @@
       padding: 2em;
     }
   }
+  @media #{$mediumPhone} {
+    .background {
+      background: none!important;
+      padding: 0;
+    }
+  }
 }

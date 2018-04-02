@@ -18,6 +18,10 @@
   role: design UX/UI
   mockups: true
   fonts: true
+  screenshots:
+    - screenshot1.png
+    - screenshot2.png
+    - screenshot3.png
   fr:
     description: FR Lorem ipsum dolor sit amet, consectetur adipisicing elit
     explain:

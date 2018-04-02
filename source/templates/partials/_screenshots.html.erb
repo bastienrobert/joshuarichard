@@ -1,3 +1,7 @@
 <div id="screenshots">
-  
+  <% project.screenshots.each do |screenshot| %>
+    <figure>
+      <%= project_image(project, screenshot) %>
+    </figure>
+  <% end %>
 </div>

@@ -1,0 +1,24 @@
+#screenshots {
+  column-width: 320px;
+  column-gap: 15px;
+  width: 100%;
+  margin: 50px auto;
+  figure {
+    background: #fefefe;
+  	box-shadow: 0 2px 20px rgba($black, .13);
+  	margin: 0 2px 15px;
+    display: block;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  @media #{$classicPhone} {
+    figure {
+      display: none;
+    }
+    figure:first-child {
+      display: block;
+    }
+  }
+}

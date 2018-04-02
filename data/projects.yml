@@ -10,11 +10,10 @@
     'Nino Treyssat-Vincent': 'https://google.com'
     'Milène Johanpour': 'https://google.com'
   palette:
-    - '#FC5143'
-    - '#7CA6F9'
-    - '#8EE3CA'
     - '#FFFFFF'
     - '#000000'
+    - '#EA7B60'
+    - '#607D8B'
   role: design UX/UI
   mockups: true
   fonts: true
@@ -23,74 +22,141 @@
     - screenshot2.png
     - screenshot3.png
   fr:
-    description: FR Lorem ipsum dolor sit amet, consectetur adipisicing elit
+    description: TradFood est une plateforme en ligne ouverte à tous, qui permet de découvrir ou de redécouvrir les recettes les plus emblématiques du terroir bordelais...
     explain:
-      - Dans le cadre de mes études, nous devions crée un site de recettes spécialiser sur Bordeaux. Dans ce projet je me suis occupé de l’identité visuel du site et du webdesign.
-      - Nous voulions donnez un aspect Haut de Gamme à ce site. Sortir des classiques de Marmition et autres qui ne sont pas forcément hestétique.
+      - TradFood est une plateforme en ligne ouverte à tous, qui permet de découvrir ou de redécouvrir les recettes les plus emblématiques du terroir bordelais. Avec un panel de recettes qu’il est possible de trier par niveau de difficulté, par saisons, et par types de plats, le site vous propose de réaliser par vous-même les recettes bordelaises qui font la richesse gastronomique de la région.
     more:
-      - Dans le cadre de mes études, nous devions crée un site de recettes spécialiser sur Bordeaux. Dans ce projet je me suis occupé de l’identité visuel du site et du webdesign.
-      - Nous voulions donnez un aspect Haut de Gamme à ce site. Sortir des classiques de Marmition et autres qui ne sont pas forcément hestétique.
+      - Tout d’abord, je me suis occupé de l’identité visuelle avec Milène. Nous avons choisi deux couleurs principales, tout d’abord un orange abricot qui rappelle la chaleur et la ville de bordeaux. Cette couleur apporte un côté chaleureux et convivial. Pour la seconde couleur nous avons choisi une couleur complémentaire un bleu pétrole qui se fond avec notre couleur principale.
+      - Pour la typographie, nous sommes partis sur une police avec serif très classique, celle-ci rappelle le côté traditionnel des recettes.
+      - Une fois l’identité trouvée je me suis occupé de l’UX et l’UI du site. Notre principale action pour choisir les recettes est un sélecteur, pour cela j’ai voulu le mettre en avant sur les pages.
   en:
-    description: EN Lorem ipsum dolor sit amet, consectetur adipisicing elit
+    description: TradFood est une plateforme en ligne ouverte à tous, qui permet de découvrir ou de redécouvrir les recettes les plus emblématiques du terroir bordelais...
     explain:
-      - Dans le cadre de mes études, nous devions crée un site de recettes spécialiser sur Bordeaux. Dans ce projet je me suis occupé de l’identité visuel du site et du webdesign.
-      - Nous voulions donnez un aspect Haut de Gamme à ce site. Sortir des classiques de Marmition et autres qui ne sont pas forcément hestétique.
+      - TradFood est une plateforme en ligne ouverte à tous, qui permet de découvrir ou de redécouvrir les recettes les plus emblématiques du terroir bordelais. Avec un panel de recettes qu’il est possible de trier par niveau de difficulté, par saisons, et par types de plats, le site vous propose de réaliser par vous-même les recettes bordelaises qui font la richesse gastronomique de la région.
     more:
-      - Dans le cadre de mes études, nous devions crée un site de recettes spécialiser sur Bordeaux. Dans ce projet je me suis occupé de l’identité visuel du site et du webdesign.
-      - Nous voulions donnez un aspect Haut de Gamme à ce site. Sortir des classiques de Marmition et autres qui ne sont pas forcément hestétique.
+      - Tout d’abord, je me suis occupé de l’identité visuelle avec Milène. Nous avons choisi deux couleurs principales, tout d’abord un orange abricot qui rappelle la chaleur et la ville de bordeaux. Cette couleur apporte un côté chaleureux et convivial. Pour la seconde couleur nous avons choisi une couleur complémentaire un bleu pétrole qui se fond avec notre couleur principale.
+      - Pour la typographie, nous sommes partis sur une police avec serif très classique, celle-ci rappelle le côté traditionnel des recettes.
+      - Une fois l’identité trouvée je me suis occupé de l’UX et l’UI du site. Notre principale action pour choisir les recettes est un sélecteur, pour cela j’ai voulu le mettre en avant sur les pages.
 - name: Capsule
   slug: capsule
   color: '#80BDF5'
   role: design UX/UI
+  url: https://capsule-bordeaux.fr
+  palette:
+    - '#FFFFFF'
+    - '#000000'
+    - '#FC5143'
+    - '#7CA6F9'
+    - '#8EE3CA'
+  team:
+    'Bastien Robert': https://bastienrobert.fr
+    'Emeline Bailleul': https://emelinebailleul.com
   fr:
-    description: FR Lorem ipsum dolor sit amet, consectetur adipisicing elit
+    description: Capsule est un e-shop éphémère proposant des produits imaginés par des créateurs de la région de Bordeaux...
     explain:
-      - Dans le cadre de mes études, nous devions crée un site de recettes spécialiser sur Bordeaux. Dans ce projet je me suis occupé de l’identité visuel du site et du webdesign.
-      - Nous voulions donnez un aspect Haut de Gamme à ce site. Sortir des classiques de Marmition et autres qui ne sont pas forcément hestétique.
+      - Capsule est un e-shop éphémère proposant des produits imaginés par des créateurs de la région de Bordeaux. Chaque mois, le projet donne à un nouveau créateur la possibilité de présenter une sélection de ses créations, qui sont également disponibles à la vente directement sur la plateforme.
+    more:
+      - Pour l’identité visuelle, j’ai choisi les 3 couleurs primaires rouge, vert, bleu. Tout le challenge était de créer une identité graphique capable de s’accorder à une identité différente par chaque mois. Grâce à ces 3 couleurs, nous pouvons adapter l’UI du site pour qu’elle s’accorde avec l’identité du créateur.
+      - Pour la typographie, le choix s’est orienté vers une font sans serif très simple et capable de fonctionner avec n’importe quel univers et rester en retrait pour faire ressortir les créations.
   en:
-    description: EN Lorem ipsum dolor sit amet, consectetur adipisicing elit
+    description: Capsule est un e-shop éphémère proposant des produits imaginés par des créateurs de la région de Bordeaux...
     explain:
-      - Dans le cadre de mes études, nous devions crée un site de recettes spécialiser sur Bordeaux. Dans ce projet je me suis occupé de l’identité visuel du site et du webdesign.
-      - Nous voulions donnez un aspect Haut de Gamme à ce site. Sortir des classiques de Marmition et autres qui ne sont pas forcément hestétique.
+      - Capsule est un e-shop éphémère proposant des produits imaginés par des créateurs de la région de Bordeaux. Chaque mois, le projet donne à un nouveau créateur la possibilité de présenter une sélection de ses créations, qui sont également disponibles à la vente directement sur la plateforme.
+    more:
+      - Pour l’identité visuelle, j’ai choisi les 3 couleurs primaires rouge, vert, bleu. Tout le challenge était de créer une identité graphique capable de s’accorder à une identité différente par chaque mois. Grâce à ces 3 couleurs, nous pouvons adapter l’UI du site pour qu’elle s’accorde avec l’identité du créateur.
+      - Pour la typographie, le choix s’est orienté vers une font sans serif très simple et capable de fonctionner avec n’importe quel univers et rester en retrait pour faire ressortir les créations.
 - name: Next Time
   slug: next-time
   color: '#FCE3DF'
   role: design UX/UI
+  url: https://next-time.cf
+  palette:
+    - '#FFFFFF'
+    - '#000000'
+    - '#FCE3DF'
+    - '#BAEEC9'
+    - '#DCEDFF'
+  team:
+    'Emeline Bailleul': https://emelinebailleul.com
+    'Bastien Robert': https://bastienrobert.fr
+    'Elisa Mauger': https://elisamauger.com
+    'Benjamin Moquet': https://benjaminmoquet.com
+    'Théo Pontoizeau': '#'
+    'Lilou Roger': '#'
+    'Manon Péberat': '#'
   fr:
-    description: FR Lorem ipsum dolor sit amet, consectetur adipisicing elit
+    description: Nextime est une application développée lors d’une initiation au langage JavaScript à l’IUT...
     explain:
-      - Dans le cadre de mes études, nous devions crée un site de recettes spécialiser sur Bordeaux. Dans ce projet je me suis occupé de l’identité visuel du site et du webdesign.
-      - Nous voulions donnez un aspect Haut de Gamme à ce site. Sortir des classiques de Marmition et autres qui ne sont pas forcément hestétique.
+      - Nextime est une application développée lors d’une initiation au langage JavaScript à l’IUT.
+      - C’est une application qui propose 3 compteurs pour différentes saisons de l’année (printemps, été, hiver). Chaque compteur est accompagné d’une illustration vectorielle animé ensuite en code.
+    more:
+      - Lors de se projet je me suis occupé de l’identité visuelle du projet avec Élisa. Je me suis occupé des illustrations tandis qu’elle a travaillé sur le design l’UI et l’UX de l’application.
+      - J’ai donc réalisé les illustration de base et ses différents états pour travailler ensuite avec le développeur et m’assurer du bon rendu une fois codé.
   en:
-    description: EN Lorem ipsum dolor sit amet, consectetur adipisicing elit
+    description: Nextime est une application développée lors d’une initiation au langage JavaScript à l’IUT...
     explain:
-      - Dans le cadre de mes études, nous devions crée un site de recettes spécialiser sur Bordeaux. Dans ce projet je me suis occupé de l’identité visuel du site et du webdesign.
-      - Nous voulions donnez un aspect Haut de Gamme à ce site. Sortir des classiques de Marmition et autres qui ne sont pas forcément hestétique.
+      - Nextime est une application développée lors d’une initiation au langage JavaScript à l’IUT.
+      - C’est une application qui propose 3 compteurs pour différentes saisons de l’année (printemps, été, hiver). Chaque compteur est accompagné d’une illustration vectorielle animé ensuite en code.
+    more:
+      - Lors de se projet je me suis occupé de l’identité visuelle du projet avec Élisa. Je me suis occupé des illustrations tandis qu’elle a travaillé sur le design l’UI et l’UX de l’application.
+      - J’ai donc réalisé les illustration de base et ses différents états pour travailler ensuite avec le développeur et m’assurer du bon rendu une fois codé.
 - name: Mandat
   slug: mandat
   color: '#57BFB4'
   role: design UX/UI - logo
+  palette:
+    - '#FFFFFF'
+    - '#645F5D'
+    - '#57BFB4'
+    - '#FF7B63'
+  team:
+    'Emeline Bailleul': https://emelinebailleul.com
+    'Elisa Mauger': https://elisamauger.com
+    'Edouard Berard': http://edouardberard.com
+    'Ambre Palanque': http://www.ambrepalanque.fr
+    'Paul Bonnau': http://paulbonneau.fr
+    'Galawesh Heril': '#'
   fr:
-    description: FR Lorem ipsum dolor sit amet, consectetur adipisicing elit
+    description: Mandat est un jeu réalisé lors d’un workshop de 5 jours quelques semaines avant l’élection présidentielle. Le joueur fait face à des décisions binaires...
     explain:
-      - Dans le cadre de mes études, nous devions crée un site de recettes spécialiser sur Bordeaux. Dans ce projet je me suis occupé de l’identité visuel du site et du webdesign.
-      - Nous voulions donnez un aspect Haut de Gamme à ce site. Sortir des classiques de Marmition et autres qui ne sont pas forcément hestétique.
+      - Mandat est un jeu (Reigns like) réalisé lors d’un workshop de 5 jours quelques semaines avant l’élection présidentielle. Le joueur fait face à des décisions binaires.
+      - Chacun de ses choix influencera les trois jauges qu’il doit maintenir au-dessus de 0 sous peine de perdre la partie. J’ai pu travailler sur l’identité visuelle du jeu ainsi que l’IU avec Emeline.
+    more:
+      - Pour l’identité visuelle, nous nous sommes basés sur les couleurs du drapeau français (bleu, blanc, rouge) que nous avons dérivé (bleu vert, rouge orangé et blanc).
+      - Pour les typographies nous avons choisi deux fonts sans serif très arrondis pour correspondre au caractère humoristique des choix du jeu.
   en:
-    description: EN Lorem ipsum dolor sit amet, consectetur adipisicing elit
+    description: Mandat est un jeu réalisé lors d’un workshop de 5 jours quelques semaines avant l’élection présidentielle. Le joueur fait face à des décisions binaires...
     explain:
-      - Dans le cadre de mes études, nous devions crée un site de recettes spécialiser sur Bordeaux. Dans ce projet je me suis occupé de l’identité visuel du site et du webdesign.
-      - Nous voulions donnez un aspect Haut de Gamme à ce site. Sortir des classiques de Marmition et autres qui ne sont pas forcément hestétique.
+      - Mandat est un jeu (Reigns like) réalisé lors d’un workshop de 5 jours quelques semaines avant l’élection présidentielle. Le joueur fait face à des décisions binaires.
+      - Chacun de ses choix influencera les trois jauges qu’il doit maintenir au-dessus de 0 sous peine de perdre la partie. J’ai pu travailler sur l’identité visuelle du jeu ainsi que l’IU avec Emeline.
+    more:
+      - Pour l’identité visuelle, nous nous sommes basés sur les couleurs du drapeau français (bleu, blanc, rouge) que nous avons dérivé (bleu vert, rouge orangé et blanc).
+      - Pour les typographies nous avons choisi deux fonts sans serif très arrondis pour correspondre au caractère humoristique des choix du jeu.
 - name: Bastien Robert
   slug: bastien-robert
   color: '#394181'
   role: design UX/UI
+  url: https://bastienrobert.fr
+  palette:
+    - '#FFFFFF'
+    - '#161616'
+    - '#C1EDF5'
+    - '#EB526C'
+  team:
+    'Bastien Robert': https://bastienrobert.fr
   fr:
-    description: FR Lorem ipsum dolor sit amet, consectetur adipisicing elit
+    description: Bastien Robert est un collègue et surtout un ami avec lequel j’ai pu grandement évoluer en projet...
     explain:
-      - Dans le cadre de mes études, nous devions crée un site de recettes spécialiser sur Bordeaux. Dans ce projet je me suis occupé de l’identité visuel du site et du webdesign.
-      - Nous voulions donnez un aspect Haut de Gamme à ce site. Sortir des classiques de Marmition et autres qui ne sont pas forcément hestétique.
+      - Bastien Robert est un collègue et surtout un ami avec lequel j’ai pu grandement évoluer en projet. Étant développeur et moi designer nous avons progressé ensemble dans le développement d’interfaces d’applications.
+      - Suite à nos deux ans de collaboration il fut limpide que je m’occupe du design de son portfolio et lui s’occupe du développement.
+    more:
+      - Pour son identité visuelle, j’ai choisi deux couleurs dynamiques et vibrantes. Tout d’abord un rouge incarnat pour les textes importants et un bleu maya pour le reste.
+      - "Pour le choix de la typographie nous voulions quelque chose qui fasse ressortir son côté développeur. Sans tomber dans le classique Space Mono, nous nous sommes tourné vers quelque chose de plus subtil : la Menlo."
   en:
-    description: EN Lorem ipsum dolor sit amet, consectetur adipisicing elit
+    description: Bastien Robert est un collègue et surtout un ami avec lequel j’ai pu grandement évoluer en projet...
     explain:
-      - Dans le cadre de mes études, nous devions crée un site de recettes spécialiser sur Bordeaux. Dans ce projet je me suis occupé de l’identité visuel du site et du webdesign.
-      - Nous voulions donnez un aspect Haut de Gamme à ce site. Sortir des classiques de Marmition et autres qui ne sont pas forcément hestétique.
+      - Bastien Robert est un collègue et surtout un ami avec lequel j’ai pu grandement évoluer en projet. Étant développeur et moi designer nous avons progressé ensemble dans le développement d’interfaces d’applications.
+      - Suite à nos deux ans de collaboration il fut limpide que je m’occupe du design de son portfolio et lui s’occupe du développement.
+    more:
+      - Pour son identité visuelle, j’ai choisi deux couleurs dynamiques et vibrantes. Tout d’abord un rouge incarnat pour les textes importants et un bleu maya pour le reste.
+      - "Pour le choix de la typographie nous voulions quelque chose qui fasse ressortir son côté développeur. Sans tomber dans le classique Space Mono, nous nous sommes tourné vers quelque chose de plus subtil : la Menlo."

@@ -1,5 +1,8 @@
 <div id="title">
-  <h1><%= project.name %></h1><%= link_to t('project.website'), project.url, class: 'website', target: '_blank' %>
+  <h1><%= project.name %></h1>
+  <% unless project.website.nil? %>
+    <%= link_to t('project.website'), project.url, class: 'website', target: '_blank' %>
+  <% end %>
   <% project[locale.to_s].explain.each do |p| %>
     <p><%= p %></p>
   <% end %>

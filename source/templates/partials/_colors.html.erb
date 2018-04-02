@@ -1,10 +1,13 @@
 <div id="colors">
   <ul>
-    <% project.palette.each do |color| %>
+    <% project.palette.each_with_index do |color, i| %>
       <li class="color" data-color="<%= color %>">
         <div class="background" style="background-color: <%= color %>;"></div>
         <div class="hexa"><%= color %></div>
       </li>
+      <% if project.palette.length == 4 && i == 1 %>
+        <break></break>
+      <% end %>
     <% end %>
   </ul>
 </div>

@@ -34,7 +34,13 @@ fr:
 
   about:
     h1: "A propos"
-    me: To a general advertiser outdoor advertising is worthy of consideration. Outdoor advertising is considered as the oldest form of advertising. Posting bills on wooden boards in the late 19th century led to the birth of the term billboard. Today, outdoor advertising includes not only billboards but also car cards in public
+    me:
+      - Hello !<br>Je suis Joshua Richard. Je suis étudiant dans le digital dans en DUT MMI à Bordeaux.
+      - Ici vous pourrez retrouver quelques projets et créations que j’ai pu réaliser pendant mes deux ans d’études.
+      - Mon objectif de travailler sur la direction artistique de projets digitaux et particulièrement en design d’interfaces.
+      - Ces dernière années, j’ai pu développer mes compétences dans différents domaines comme le design UX/UI, le design print, le motion et la photographie.
+      - Vous pouvez voir mes photos sur <a href="#" target="_blank">mon second site</a>.
+      - Si vous voulez en savoir plus je vous invite voir mon CV ou mon portfolio.
 
   projects:
     h1: "Projets"

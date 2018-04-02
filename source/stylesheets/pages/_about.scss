@@ -3,16 +3,20 @@
     width: 60%;
     min-width: 500px;
     margin-top: 4em;
-    background-color: $blue;
+    background-color: $rose;
     border-radius: 10px;
     color: $white;
     padding: 1.5em 1em;
     p {
       display: block;
       min-width: 250px;
-      width: 50%;
+      width: 90%;
       font-size: 1.25em;
-      line-height: 1.6em;
+      line-height: 1.5em;
+      margin-bottom: .5em;
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
   }
   .image {
@@ -23,7 +27,7 @@
     right: 0;
     img {
       width: 100%;
-      mix-blend-mode: luminosity;
+      mix-blend-mode: overlay;
     }
   }
   @media #{$bigTablet} {

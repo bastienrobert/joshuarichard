@@ -13,6 +13,12 @@
     position: relative;
     min-width: 70px;
   }
+  break{
+    flex-basis: 100%;
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+  }
   .background {
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;

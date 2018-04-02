@@ -2,7 +2,9 @@
 slug: about
 ---
 <div class="text">
-  <p><%= t('about.me') %></p>
+  <% t('about.me').each do |p| %>
+    <p><%= p %></p>
+  <% end %>
 </div>
 <div class="image">
   <%= image_tag 'joshua.png' %>

@@ -5,6 +5,7 @@
 body {
   color: $black;
   font-family: $font-primary;
+  font-style: normal;
   &.overflow {
     overflow: hidden;
   }

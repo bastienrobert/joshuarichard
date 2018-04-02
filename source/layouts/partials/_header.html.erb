@@ -11,10 +11,9 @@
   </div>
   <div id="socials">
     <ul>
-      <li><a href="#" class="behance"></a></li>
-      <li><a href="#" class="twitter"></a></li>
-      <li><a href="#" class="facebook"></a></li>
-      <li><a href="#" class="tumblr"></a></li>
+      <% data.pages.socials.each do |className, link| %>
+        <li><a href="<%= link %>" class="<%= className %>"></a></li>
+      <% end %>
     </ul>
   </div>
 </header>

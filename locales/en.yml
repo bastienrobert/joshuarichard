@@ -28,6 +28,9 @@ en:
   # ------------------
   homepage:
     h1: "Home"
+    title: Hey, I’m Joshua.
+    hello:
+      - I’m a digital creative student. I work on design UI/UX, visuel identity ,motion design and photography.
 
   about:
     h1: "About"

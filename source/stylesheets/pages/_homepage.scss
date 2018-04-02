@@ -3,12 +3,13 @@
   #hello {
     line-height: 1.813em;
     font-weight: 500;
+    letter-spacing: 2.67px;
   }
   #projects {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 1em;
+    margin-top: 2em;
     @media #{$bigTablet} {
       justify-content: flex-start;
     }
@@ -67,10 +68,10 @@
     }
   }
   #nav {
-    margin-left: 6em;
+    margin-left: 3em;
     li {
-      margin-bottom: 3em;
-      min-width: 330px;
+      margin-bottom: 2em;
+      min-width: 360px;
       &:last-child {
         margin-bottom: 0;
       }
@@ -91,6 +92,7 @@
         font-size: 2em;
         margin-bottom: .3em;
         transition: color .2s;
+        letter-spacing: 4px;
         .shift {
           position: absolute;
           top: 0;
@@ -100,12 +102,14 @@
           opacity: 0;
           transition: color .2s;
           font-weight: bold;
+          letter-spacing: 4px;
         }
       }
       .role {
         color: #cfcfcf;
         text-transform: uppercase;
         transition: color .2s;
+        letter-spacing: 3px;
       }
       &:hover {
         h2 {

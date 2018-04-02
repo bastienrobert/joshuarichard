@@ -19,7 +19,7 @@ dir:
   <%= partial 'partials/colors' unless project.palette.nil? %>
   <%= partial 'partials/more' unless project[locale.to_s].more.nil? %>
   <%= partial 'partials/fonts' unless project.fonts.nil? %>
-  <%= partial 'partials/screenshots' %>
+  <%= partial 'partials/screenshots' unless project.screenshots.nil? %>
 </div>
 <!-- <p><%= project[locale.to_s].description %></p>
 <%= project_image(project, 'main.jpg', {

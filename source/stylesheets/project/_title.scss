@@ -47,4 +47,14 @@
   @media #{$classicTablet} {
     width: 100%;
   }
+  @media #{$mediumPhone} {
+    h1 {
+      margin-bottom: .5em;
+      display: block;
+    }
+    .website {
+      margin-left: 0;
+      margin-bottom: 1.2em;
+    }
+  }
 }

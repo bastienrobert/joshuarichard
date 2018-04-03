@@ -75,7 +75,7 @@ end
 
 # Under deploy
 configure :build do
-  config[:host] = "https://joshuarichard.netlify.com"
+  config[:host] = "https://joshuarichard.fr"
 
   activate :minify_html
   activate :minify_css
@@ -92,7 +92,7 @@ configure :build do
   # Robots
   activate :robots,
     :rules => [
-      {:user_agent => '*', :allow => %w(/)}
+      {:user_agent => '*', :disallow => %w(/en), :allow => %w(/)}
     ],
     :sitemap => config[:host] + "/sitemap.xml"
 end

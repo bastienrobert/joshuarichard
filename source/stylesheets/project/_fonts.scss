@@ -6,16 +6,9 @@
   padding: 3em 2em;
   .font {
     width: 48%;
-  }
-  span {
-    display: block;
-  }
-  .name {
-    margin-bottom: 1.3em;
-    text-transform: uppercase;
-  }
-  .letters {
-    margin-bottom: .25em;
+    img {
+      width: 100%;
+    }
   }
   @media #{$bigTablet} {
     flex-wrap: wrap;

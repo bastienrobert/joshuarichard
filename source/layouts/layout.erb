@@ -7,7 +7,7 @@
 
     <title><%= title_translate %></title>
     <meta name="description" content="<%= description_translate %>" />
-
+    <link rel="icon" href="/images/favicon.ico">
     <!-- Facebook Open Graph data -->
     <meta property="og:title" content="<%= title_translate %>" />
     <meta property="og:type" content="website" />
@@ -15,6 +15,7 @@
     <meta property="og:image" content="<%= data.meta.image %>" />
     <meta property="og:description" content="<%= description_translate %>" />
     <meta property="og:site_name" content="<%= data.meta.title %>" />
+    <meta property="og:app_id" content="<%= data.meta.facebook_id %>" />
 
     <!-- Twitter Card data -->
     <meta name="twitter:card" content="summary_large_image">
@@ -35,7 +36,6 @@
     <section id="<%= current_page.data.dynamic == nil ? current_page.data.slug : current_page.data.dynamic.data %>">
       <%= yield %>
     </section>
-    <!-- <%= partial 'layouts/partials/footer' %> -->
 
     <%= javascript_include_tag "all" %>
   </body>

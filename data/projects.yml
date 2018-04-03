@@ -16,7 +16,7 @@
     - '#607D8B'
   role: design UX/UI
   mockups: true
-  # fonts: true
+  fonts: true
   screenshots:
     - screenshot1.png
     - screenshot2.png
@@ -42,7 +42,7 @@
   color: '#80BDF5'
   role: design UX/UI
   mockups: true
-  # fonts: true
+  fonts: true
   big_logo: true
   logo_shadow: true
   url: https://capsule-bordeaux.fr
@@ -79,7 +79,7 @@
   color: '#FCE3DF'
   role: design UX/UI
   url: https://next-time.cf
-  # fonts: true
+  fonts: true
   mockups: true
   big_mockup: true
   palette:
@@ -117,7 +117,7 @@
   color: '#57BFB4'
   role: design UX/UI - logo
   mockups: true
-  # fonts: true
+  fonts: true
   palette:
     - '#FFFFFF'
     - '#645F5D'
@@ -156,7 +156,7 @@
   role: design UX/UI
   url: https://bastienrobert.fr
   mockups: true
-  # fonts: true
+  fonts: true
   palette:
     - '#FFFFFF'
     - '#161616'

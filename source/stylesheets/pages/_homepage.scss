@@ -12,7 +12,7 @@
   }
   #projects {
     display: flex;
-    margin-top: 2em;
+    margin-top: 3em;
     align-items: center;
     @media #{$bigTablet} {
       justify-content: flex-start;

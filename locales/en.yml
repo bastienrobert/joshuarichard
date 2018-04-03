@@ -33,13 +33,13 @@ en:
       - Je suis étudiant dans le digital. J’aime le design UI / UX, design graphique, le motion design, la photographie
 
   about:
-    h1: "About"
+    h1: "Hello ! 👋"
     me:
-      - Hello !<br>Je suis Joshua Richard. Je suis étudiant dans le digital dans en DUT MMI à Bordeaux.
+      - Je suis Joshua Richard. Je suis étudiant dans le digital dans en DUT MMI à Bordeaux.
       - Ici vous pourrez retrouver quelques projets et créations que j’ai pu réaliser pendant mes deux ans d’études.
       - Mon objectif de travailler sur la direction artistique de projets digitaux et particulièrement en design d’interfaces.
       - Ces dernière années, j’ai pu développer mes compétences dans différents domaines comme le design UX/UI, le design print, le motion et la photographie.
-      - Vous pouvez voir mes photos sur <a href="#" target="_blank">mon second site</a>.
+      - Vous pouvez voir mes photos sur <a href="http://woodyliar.format.com" target="_blank">mon second site</a>.
       - Si vous voulez en savoir plus je vous invite voir mon <a href="/images/CV.pdf" target="_blank">CV</a> ou mon <a href="/images/portfolio.pdf" target="_blank">portfolio</a>.
 
   projects:

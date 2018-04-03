@@ -1,53 +1,23 @@
 #about {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  width: 68%;
-  .text {
-    width: 50%;
-    background-color: $rose;
-    border-radius: 6px;
-    color: $white;
-    padding: 2.5em 3.5em 0 2em;
-    box-sizing: border-box;
-    margin-bottom: 3em;
-    p {
-      display: block;
-      width: 100%;
-      font-size: 1.25em;
-      line-height: 1.5em;
-      margin-bottom: .75em;
-      letter-spacing: 1.1px;
-      a {
-        color: $blue;
-      }
-      &:last-child {
-        margin-bottom: 3em;
-      }
-    }
+  h1,
+  p {
+    display: block;
+    width: 100%;
+    font-size: 1.25em;
+    line-height: 1.5em;
+    margin-bottom: .75em;
+    letter-spacing: 1.1px;
+    color: $black;
   }
-  .image {
-    width: 47.5%;
-    img {
-      width: 100%;
-    }
+  h1 {
+    margin-bottom: 3.5em;
   }
-  @media #{$bigTablet} {
-    flex-direction: column;
-    .text {
-      order: 2;
-      width: 100%;
+  p {
+    a {
+      color: $blue;
     }
-    .image {
-      width: 100%;
-      margin-bottom: 1.5em;
-    }
-  }
-  @media #{$littlePhone} {
-    .text {
-      background-color: inherit;
-      padding: 0;
-      color: $black;
+    &:last-child {
+      margin-bottom: 3em;
     }
   }
 }

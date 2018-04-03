@@ -28,9 +28,9 @@ en:
   # ------------------
   homepage:
     h1: "Home"
-    title: Hey, I’m Joshua.
+    title: Hello ! Je suis Joshua Richard.
     hello:
-      - I’m a digital creative student. I work on design UI/UX, visuel identity ,motion design and photography.
+      - Je suis étudiant dans le digital. J’aime le design UI / UX, design graphique, le motion design, la photographie
 
   about:
     h1: "About"
@@ -40,7 +40,7 @@ en:
       - Mon objectif de travailler sur la direction artistique de projets digitaux et particulièrement en design d’interfaces.
       - Ces dernière années, j’ai pu développer mes compétences dans différents domaines comme le design UX/UI, le design print, le motion et la photographie.
       - Vous pouvez voir mes photos sur <a href="#" target="_blank">mon second site</a>.
-      - Si vous voulez en savoir plus je vous invite voir mon CV ou mon portfolio.
+      - Si vous voulez en savoir plus je vous invite voir mon <a href="/images/CV.pdf" target="_blank">CV</a> ou mon <a href="/images/portfolio.pdf" target="_blank">portfolio</a>.
 
   projects:
     h1: "Projects"

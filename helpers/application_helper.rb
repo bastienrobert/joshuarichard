@@ -21,4 +21,9 @@ module ApplicationHelper
     return color
   end
 
+  def markdown(text)
+    markdown = Redcarpet::Markdown.new(Redcarpet::Render::StripDown)
+    Markdown.new(text).to_html.gsub(/<p>|<\/p>/, "")
+  end
+
 end

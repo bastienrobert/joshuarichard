@@ -60,6 +60,7 @@ header {
       width: 1.3em;
       height: 1.3em;
       margin-bottom: .9em;
+      transition: opacity .2s;
       a {
         display: block;
         width: 100%;
@@ -79,6 +80,9 @@ header {
       }
       .facebook {
         background-image: image-url('icons/socials/facebook.svg');
+      }
+      &:hover {
+        opacity: .6;
       }
     }
   }

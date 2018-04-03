@@ -1,6 +1,10 @@
 #homepage {
   padding-top: 6em;
   position: inherit;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: calc(100vh-86px);
   #hello {
     line-height: 1.813em;
     font-weight: 500;
@@ -11,13 +15,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 2em;
-    position: absolute;
-    bottom: 6vh;
-    left: 50%;
-    transform: translateX(-50%);
     @media #{$bigTablet} {
-      position: inherit;
-      transform: none;
       justify-content: flex-start;
     }
   }

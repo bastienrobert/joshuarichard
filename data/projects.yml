@@ -152,7 +152,7 @@
       - Pour les typographies nous avons choisi deux fonts sans serif très arrondis pour correspondre au caractère humoristique des choix du jeu.
 - name: Bastien Robert
   slug: bastien-robert
-  color: '#394181'
+  color: '#C1EDF5'
   role: design UX/UI
   url: https://bastienrobert.fr
   mockups: true

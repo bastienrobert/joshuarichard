@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  height: calc(100vh-86px);
+  height: 80vh;
   #hello {
     line-height: 1.813em;
     font-weight: 500;
@@ -12,23 +12,24 @@
   }
   #projects {
     display: flex;
-    align-items: center;
-    justify-content: center;
     margin-top: 2em;
     @media #{$bigTablet} {
       justify-content: flex-start;
     }
+    @media screen and (min-width : 1600px) {
+      justify-content: space-around;
+    }
   }
   #cards {
     position: relative;
-    width: 28vw;
-    max-width: 430px;
-    height: 28vw;
-    max-height: 430px;
+    width: 30vw;
+    max-width: 450px;
+    height: 30vw;
+    max-height: 450px;
     div {
       height: 100%;
       width: 100%;
-      background-color: $grey-light;
+      background-color: $green;
       border-radius: 10px;
     }
     .background-card,
@@ -44,6 +45,18 @@
       transform: translateY(-10px) scale(.975);
       opacity: .7;
     }
+    .portrait {
+      height: 80%;
+      position: absolute;
+      bottom: 0;
+      background-size: cover;
+      background-image: image-url('portrait.png');
+    }
+    &.animate {
+      .portrait {
+        display: none;
+      }
+    }
     &:hover,
     &.animate {
       .sub-card {
@@ -55,6 +68,10 @@
     }
     @media #{$bigTablet} {
       display: none;
+    }
+    @media screen and (min-width : 2500px) {
+      max-height: 60vh;
+      max-width: 60vh;
     }
   }
   #card {
@@ -131,9 +148,14 @@
     }
     @media #{$bigTablet} {
       margin-left: 0;
+      margin-bottom: 2.5em;
       li {
         min-width: inherit;
       }
     }
+  }
+  @media #{$bigTablet} {
+    display: inherit;
+    height: auto;
   }
 }

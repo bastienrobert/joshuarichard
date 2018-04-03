@@ -1,74 +1,50 @@
 #about {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 68%;
   .text {
-    width: 60%;
-    min-width: 500px;
-    margin-top: 4em;
+    width: 50%;
     background-color: $rose;
-    border-radius: 10px;
+    border-radius: 6px;
     color: $white;
-    padding: 1.5em 1em;
+    padding: 2.5em 3.5em 0 2em;
+    box-sizing: border-box;
+    margin-bottom: 3em;
     p {
       display: block;
-      min-width: 250px;
-      width: 90%;
+      width: 100%;
       font-size: 1.25em;
       line-height: 1.5em;
-      margin-bottom: .5em;
+      margin-bottom: .75em;
+      letter-spacing: 1.1px;
       &:last-child {
-        margin-bottom: 0;
+        margin-bottom: 3em;
       }
     }
   }
   .image {
-    position: absolute;
-    width: 60%;
-    top: 0;
-    margin-top: 4em;
-    right: 0;
+    width: 47.5%;
     img {
       width: 100%;
-      mix-blend-mode: overlay;
     }
   }
   @media #{$bigTablet} {
-    display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     .text {
-      position: relative;
       order: 2;
-      margin-top: 8em;
-      min-width: inherit;
       width: 100%;
-      p {
-        width: 90%;
-        min-width: inherit;
-      }
     }
     .image {
-      order: 1;
       width: 100%;
-      margin-top: 10.5em;
-      mix-blend-mode: overlay;
-    }
-  }
-  @media #{$bigPhone} {
-    .image {
-      position: relative;
-      margin-top: 1.5em;
-    }
-    .text {
-      margin-top: 2em;
+      margin-bottom: 1.5em;
     }
   }
   @media #{$littlePhone} {
-    .image {
-      display: none;
-    }
     .text {
-      margin-top: .5em;
-      p {
-        width: 95%;
-      }
+      background-color: inherit;
+      padding: 0;
+      color: $black;
     }
   }
 }

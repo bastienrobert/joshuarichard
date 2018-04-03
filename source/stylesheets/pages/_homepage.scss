@@ -1,5 +1,6 @@
 #homepage {
   padding-top: 6em;
+  position: inherit;
   #hello {
     line-height: 1.813em;
     font-weight: 500;
@@ -10,7 +11,13 @@
     align-items: center;
     justify-content: center;
     margin-top: 2em;
+    position: absolute;
+    bottom: 8vh;
+    left: 50%;
+    transform: translateX(-50%);
     @media #{$bigTablet} {
+      position: inherit;
+      transform: none;
       justify-content: flex-start;
     }
   }
@@ -126,6 +133,9 @@
     }
     @media #{$bigTablet} {
       margin-left: 0;
+      li {
+        min-width: inherit;
+      }
     }
   }
 }

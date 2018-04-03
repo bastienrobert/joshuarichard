@@ -1,4 +1,6 @@
-<div id="mockups">
+<div id="mockups" <%= "class='single-computer'" unless File.exist?('source/images/' + project.slug + '/phone.png') %>>
   <%= project_image(project, 'cover.png', {class: 'computer'}) %>
-  <%= project_image(project, 'phone.png', {class: 'phone'}) %>
+  <% if File.exist?('source/images/' + project.slug + '/phone.png') %>
+    <%= project_image(project, 'phone.png', {class: 'phone'}) %>
+  <% end %>
 </div>

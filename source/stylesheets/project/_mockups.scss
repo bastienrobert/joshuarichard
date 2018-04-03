@@ -4,6 +4,13 @@
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
+  &.single-computer {
+    justify-content: center;
+    .computer {
+      max-height: none;
+      max-width: 80%;
+    }
+  }
   .computer {
     margin-top: 2em;
     margin-right: 2em;

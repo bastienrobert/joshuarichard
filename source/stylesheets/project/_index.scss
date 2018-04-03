@@ -5,12 +5,16 @@
   @import "more";
   @import "screenshots";
   @import "fonts";
+  @import "big_mockup";
   .intro {
     display: flex;
     justify-content: space-between;
     align-items: center;
     img {
       width: 180px;
+      &.shadow {
+        filter: drop-shadow(0 2px 20px rgba($black, .16));
+      }
       @media #{$classicTablet} {
         display: none;
       }
@@ -20,6 +24,12 @@
     padding: 5em;
     border-radius: 10px;
     margin-bottom: 3em;
+    .big-logo {
+      display: block;
+      width: 90%;
+      margin: 0 auto;
+      filter: drop-shadow(0 2px 20px rgba($black, .3));
+    }
     @media #{$bigPhone} {
       padding: 2em;
     }

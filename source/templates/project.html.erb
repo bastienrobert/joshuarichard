@@ -12,14 +12,16 @@ dir:
 ---
 <div class="intro">
   <%= partial 'partials/title' %>
-  <%= project_image(project, 'logo.svg', {class: 'logo'}) %>
+  <%= project_image(project, 'logo.svg', {class: "logo #{'shadow' unless project.logo_shadow.nil?}"}) if File.exist?('source/images/' + project.slug + '/logo.svg') %>
 </div>
 <div class="background" style="background-color: rgba(<%= to_rgb(project.color) %>, .17);">
   <%= partial 'partials/mockups' unless project.mockups.nil? %>
+  <%= project_image(project, 'big-logo.svg', {class: 'big-logo'}) unless project.big_logo.nil? %>
   <%= partial 'partials/colors' unless project.palette.nil? %>
   <%= partial 'partials/more' unless project[locale.to_s].more.nil? %>
   <%= partial 'partials/fonts' unless project.fonts.nil? %>
   <%= partial 'partials/screenshots' unless project.screenshots.nil? %>
+  <%= partial 'partials/big_mockup' unless project.big_mockup.nil? %>
 </div>
 <!-- <p><%= project[locale.to_s].description %></p>
 <%= project_image(project, 'main.jpg', {

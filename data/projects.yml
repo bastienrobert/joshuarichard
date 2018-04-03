@@ -16,7 +16,7 @@
     - '#607D8B'
   role: design UX/UI
   mockups: true
-  fonts: true
+  # fonts: true
   screenshots:
     - screenshot1.png
     - screenshot2.png
@@ -41,6 +41,10 @@
   slug: capsule
   color: '#80BDF5'
   role: design UX/UI
+  mockups: true
+  # fonts: true
+  big_logo: true
+  logo_shadow: true
   url: https://capsule-bordeaux.fr
   palette:
     - '#FFFFFF'
@@ -51,6 +55,11 @@
   team:
     'Bastien Robert': https://bastienrobert.fr
     'Emeline Bailleul': https://emelinebailleul.com
+  screenshots:
+    - screenshot1.png
+    - screenshot2.png
+    - screenshot3.png
+    - screenshot4.png
   fr:
     description: Capsule est un e-shop éphémère proposant des produits imaginés par des créateurs de la région de Bordeaux...
     explain:
@@ -70,6 +79,9 @@
   color: '#FCE3DF'
   role: design UX/UI
   url: https://next-time.cf
+  # fonts: true
+  mockups: true
+  big_mockup: true
   palette:
     - '#FFFFFF'
     - '#000000'
@@ -104,6 +116,8 @@
   slug: mandat
   color: '#57BFB4'
   role: design UX/UI - logo
+  mockups: true
+  # fonts: true
   palette:
     - '#FFFFFF'
     - '#645F5D'
@@ -116,6 +130,10 @@
     'Ambre Palanque': http://www.ambrepalanque.fr
     'Paul Bonnau': http://paulbonneau.fr
     'Galawesh Heril': '#'
+  screenshots:
+    - screenshot1.png
+    - screenshot2.png
+    - screenshot3.png
   fr:
     description: Mandat est un jeu réalisé lors d’un workshop de 5 jours quelques semaines avant l’élection présidentielle. Le joueur fait face à des décisions binaires...
     explain:
@@ -137,11 +155,17 @@
   color: '#394181'
   role: design UX/UI
   url: https://bastienrobert.fr
+  mockups: true
+  # fonts: true
   palette:
     - '#FFFFFF'
     - '#161616'
     - '#C1EDF5'
     - '#EB526C'
+  screenshots:
+    - screenshot1.png
+    - screenshot2.png
+    - screenshot3.png
   team:
     'Bastien Robert': https://bastienrobert.fr
   fr:
